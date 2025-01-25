@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/8d0f4d39b1.js" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- swiper -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+   />
+    <title>Document</title>
+</head>
+<body>
+<!-- nav section  -->
+<nav class="navbar navbar-expand-lg " style="position:relative; z-index:100;">
+    <div class="container-fluid navbarcss" style="position: fixed;margin-top: 0px; top:0px;" id="navbar">
+      <a class="navbar-brand" href="#">
+        <img src="images/bandishe1.jpg" alt="" style="width:50px;height:35px;">
+      </a>
+     
+      
+      <div class="d-flex gap-3 me-4 navright">
+        <div class="menu"><a href="about.html"><i class="fa-solid fa-bars-staggered" style="color:white;font-size: 20px;;"></i></a></div>
+        <div class="ca"><i class="fa-solid fa-cart-shopping" style="color:white;font-size:20px;"></i></div>
+        <div class="se"><i class="fa-solid fa-magnifying-glass" style="color:white; font-size: 20px;;"></i></div>
+    </div>
+    </div>
+  </nav>
+<!-- nav section end  -->
+<!-- carousel section start -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: -80px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active relative">
+        <img src="images/1000159757-01.jpeg" class="d-block w-100" style="max-height: 100vh; min-height: 100vh; object-fit: cover;" alt="...">
+        <div class="absolute t-0 l-0 slide slide1" >
+          <h4 class="cheading">Bring Your Vision to Life</h4>
+          <p class="cpara">Our studio specializes in professional portfolio shoots, movie productions, and model videography</p>
+          <p class="creadmore">read more &gt</p>
+        </div>
+      </div>
+      <div class="carousel-item relative" >
+        <img src="images/pic4.jpg" class="d-block w-100" style="max-height: 100vh;min-height: 100vh; object-fit: cover;" alt="...">
+        <div class="absolute t-0 l-0 slide slide2" >
+          <h2 class="cheading">Step Into the Spotlight</h2>
+          <p class="cpara">Showcase your talent with high-quality portfolio and video shoots.</p>
+          <p class="creadmore">read more</p>
+        </div>
+      </div>
+      <div class="carousel-item relative">
+        <img src="images/DSC00462 (1).jpg" class="d-block w-100 " style="max-height: 100vh;min-height: 100vh; object-fit: cover;" alt="...">
+        <div class="absolute  slide slide3" >
+          <h2 class="cheading">Create Magic On Camera</h2>
+          <p class="cpara">From model portfolios to movie scenes, our studio offers everything you need.</p>
+          <p class="creadmore">read more</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!-- Custom Circular Progress Indicators -->
+   <div class="progress-indicator"  style="margin: 0;">
+    <div class="circle" data-index="0">
+      <div class="progress"></div>
+      <div class="inner-circle">1</div>
+    </div>
+    <div class="circle" data-index="1">
+      <div class="progress"></div>
+      <div class="inner-circle">2</div>
+    </div>
+    <div class="circle" data-index="2">
+      <div class="progress"></div>
+      <div class="inner-circle">3</div>
+    </div>
+  </div>
+ <!-- carousel section end -->
+ <!-- section 1 about me section -->
+
+ <div class="about-section">
+  <div class="about-container">
+   <div class="about-image-container">
+    <img src="images/dcs04.jpg" alt="" data-aos="fade-right">
+   </div>
+   <div class="about-content-container" data-aos="fade-right" data-aos-duration="800">
+    <h4 class="about-head">About Me</h4>
+    <h1 class="about-title">Welcome toKatha Rama films Studio
+      where <span> Imagination </span> meet Reality.
+    </h1>
+    <span id="underscore"></span>
+    <p class="about-description" data-aos="fade-right" data-aos-duration="900">Let our team bring your story to life with stunning videography and photography. <br>We specialize in portfolio creation, cinematic videography, and model shoots, delivering professional results every time.</p>
+    <div class="about-projectnumber" data-aos="fade" data-aos-duration="1150">
+      <div class="project-number" data-aos="fade-up" data-aos-duration="800">
+        <h1 class=".count">140</h1>
+        <h3>Portfolio shooting</h3>
+      </div>
+      <div class="project-number" data-aos="fade-up" data-aos-duration="850">
+        <h1 class=".count" data-count="800">3000</h1>
+        <h3>Product shooting</h3>
+      </div>
+      <div class="project-number"
+      data-aos="fade-up" data-aos-duration="900">
+        <h1 class=".count">23</h1>
+        <h3>Cinematic shooting</h3>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+
+
+
+ 
+ <!-- section 1 about me section -->
+
+ <!-- section All works  -->
+ <div class="div works_head">
+  <h1 class="works_head_title">Latest Work</h1>
+  <span class="works_head_span"></span>
+  <div class="div works_head_option">
+    <div class="work_option works_option1">ALL</div>
+    <div class="work_option works_option2">Fashion</div>
+    <div class="work_option works_option3">
+      LifeStyle
+    </div>
+    <div class="work_option works_option4">
+      Nature
+    </div>
+    <div class="work_option works_option5">
+      Portraits
+    </div>
+    <div class="work_option works_option6">
+      Studio
+    </div>
+  </div>
+ </div>
+
+
+ <!-- works demo  -->
+<div class="work_image_container">
+  <div class="div demo_image">
+    <img src="images/_DSC6066.jpg" alt="" data-aos="fade-up">
+    <img src="images/_DSC6089.jpg" alt="" data-aos="fade-up">
+    <img src="images/DSC06337 (1).jpg" alt="" data-aos="fade-up">
+    <img src="images/dcs02.jpg" alt="" data-aos="fade-up">
+    <img src="images/IMG_5119.JPG" alt="" data-aos="fade-up">
+    <img src="images/_DSC6056.jpg" alt=""data-aos="fade-up">
+    <img src="images/_DSC6066.jpg" alt=""data-aos="fade-up">
+    <img src="images/_DSC6072.jpg" alt=""data-aos="fade-up">
+  </div>
+  <div class="load_more">
+    <p>load more <i class="fa-solid fa-angle-down" style="margin-left:5px;"></i> </p>
+  </div>
+</div>
+  <!-- works demo end -->
+
+  <!-- section All works  End -->
+  <!-- work image slider -->
+
+<!-- swiper js  -->
+<div class="swiper mySwiper" data-aos="fade-up">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="card text-bg-dark">
+      <img src="images/DSC_0152.JPG" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <div class="overlay1upper">
+         <div class="pipe"></div>
+         <h5 class="card-title">$100</h5>
+        
+         <p class="card-text "><button class="">Purchase</button></p>
+        </div>
+        <div class="swiper1lower">
+            <p>Options <span>+</span></p>
+        </div>
+        
+      </div>
+     
+    </div>
+  </div>
+    <div class="swiper-slide">
+      <div class="card text-bg-dark">
+        <img src="images/priya08.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="overlay1upper">
+           <div class="pipe"></div>
+           <h5 class="card-title">$100</h5>
+          
+           <p class="card-text "><button class="">Purchase</button></p>
+          </div>
+          <div class="swiper1lower">
+              <p>Options <span>+</span></p>
+          </div>
+          
+        </div>
+      </div>  
+    </div>
+    <div class="swiper-slide">
+      <div class="card text-bg-dark">
+        <img src="images/_DSC6090.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="overlay1upper">
+           <div class="pipe"></div>
+           <h5 class="card-title">$100</h5>
+          
+           <p class="card-text "><button class="">Purchase</button></p>
+          </div>
+          <div class="swiper1lower">
+              <p>Options <span>+</span></p>
+          </div>
+          
+        </div>
+      </div> 
+    </div>
+    <div class="swiper-slide">
+      <div class="card text-bg-dark">
+        <img src="images/_DSC6056.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="overlay1upper">
+           <div class="pipe"></div>
+           <h5 class="card-title">$100</h5>
+          
+           <p class="card-text "><button class="">Purchase</button></p>
+          </div>
+          <div class="swiper1lower">
+              <p>Options <span>+</span></p>
+          </div>
+          
+        </div>
+      </div> 
+    </div>
+    <div class="swiper-slide">
+      <div class="card text-bg-dark">
+        <img src="images/_DSC6066.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="overlay1upper">
+           <div class="pipe"></div>
+           <h5 class="card-title">$100</h5>
+          
+           <p class="card-text "><button class="">Purchase</button></p>
+          </div>
+          <div class="swiper1lower">
+              <p>Options <span>+</span></p>
+          </div>
+          
+        </div>
+      </div> 
+    </div>
+    <div class="swiper-slide">
+      <div class="card text-bg-dark">
+        <img src="images/_DSC6082.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="overlay1upper">
+           <div class="pipe"></div>
+           <h5 class="card-title">$100</h5>
+          
+           <p class="card-text "><button class="">Purchase</button></p>
+          </div>
+          <div class="swiper1lower">
+              <p>Options <span>+</span></p>
+          </div>
+          
+        </div>
+      </div> 
+    </div>
+   
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <!-- <div class="swiper-pagination"></div> -->
+</div>
+
+<!-- myswiper2 -->
+<div class="swiper mySwiper2">
+  <div class="swiper2content">follow me</div>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/_DSC6082.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/DSC035.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5120.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5124.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5120.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5121.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5123.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5124.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5126.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5127.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5124.JPG" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="images/IMG_5125.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="images/IMG_5124.JPG" alt=""></div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <!-- <div class="swiper-pagination"></div> -->
+</div>
+
+<!-- work image slider end -->
+
+
+  <!-- Aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- swiper -->
+
+  
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+   var swiper = new Swiper(".mySwiper", {
+      spaceBetween:0,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction:false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        // When the screen width is >= 320px (small screens)
+        320: {
+            slidesPerView: 1,
+            // spaceBetween: 10,
+            navigation: {
+                enabled: false,
+            },
+        },
+        // When the screen width is >= 768px (medium screens)
+        768: {
+            slidesPerView: 2,
+            // spaceBetween: 20,
+            navigation: {
+                enabled: true,
+            },
+        },
+        // When the screen width is >= 1024px (large screens)
+        1024: {
+            slidesPerView: 3,
+            // spaceBetween: 30,
+            navigation: {
+                enabled: true,
+            },
+        },}
+    });
+    // swiper 2
+    var swiper = new Swiper(".mySwiper2", {
+      spaceBetween:0,
+      slidesPerView:auto,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction:false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        // When the screen width is >= 320px (small screens)
+        320: {
+            // slidesPerView: 4,
+            
+            navigation: {
+                enabled: false,
+            },
+        },
+        // When the screen width is >= 768px (medium screens)
+        768: {
+            // slidesPerView: 5,
+           
+            navigation: {
+                enabled: true,
+            },
+        },
+        // When the screen width is >= 1024px (large screens)
+        1024: {
+            // slidesPerView: 6,
+        
+            navigation: {
+                enabled: true,
+            },
+        },}
+    });
+</script>
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
