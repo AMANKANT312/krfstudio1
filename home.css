@@ -178,6 +178,31 @@
 
 /* End  About section of home page  */
 
+
+/* video section start */
+.video_container h1{
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgb(200, 200, 37);
+  color: black;
+  font-weight: 500;
+  padding:10px;
+  margin-bottom: -1px;
+}
+.video_slider{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:15px;
+  padding:10px;
+  background-color: #000;
+}
+.swiper-slide video source{
+  overflow: hidden;
+}
+
+
+
 /* works head section start */
 
 .works_head{
@@ -263,8 +288,8 @@
   top:-400px;
   left:0; */
   /* transform: translateX(-50%); */
-  width:5px;
-  height:25px;
+  width:4px;
+  height:30px;
   background: rgb(200, 200, 37);
 }
 .text-bg-dark{
@@ -291,11 +316,11 @@
 .card-text button{
  box-shadow: none;
  border: none;
- padding:2px 4px;
- background-color:rgb(200, 200, 37);
- color:black;
+ padding:2px 10px;
+ color:rgb(200, 200, 37);
+ background-color:black;
  font-weight: 600;
- font-size: 14px;
+ font-size: 12px;
  text-transform: uppercase;
 }
 .swiper1lower p{
@@ -323,7 +348,7 @@
 .mySwiper .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,11 +369,12 @@
   transition: all ease-in 0.1s;
 }
 .swiper2content{
-  color:black;
-  background-color: rgb(200, 200, 37);
+  color:rgb(200, 200, 37);
+  font-weight: 600;
+  background-color:black;
   text-transform: uppercase;
 
-  padding:4px 10px;
+  padding:6px 17px;
   position: absolute;
   z-index: 10;
   top:50%;
@@ -357,17 +383,102 @@
 }
 .mySwiper2 .swiper-slide{
   height:100%;
-  width:130px;
+  width:179px;
   /* background: red; */
   /* border:solid 2px green; */
 }
 .mySwiper2 .swiper-slide img{
-  width:130px;
-  height:150px;
+  width:180px;
+  height:220px;
   object-fit: cover;
 }
 
+.swiper_breakcontiner li a{
+  text-decoration: none;
+  color:white;
+
+}
+.swiper_breaker{
+  color:white;
+  background: black;
+  width:100%;
+  height:50px;
+}
+.swiper_breakcontiner{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+
+}
+.swiper_breakcontiner li{
+  list-style-type: none;
+  padding:4px 10px;
+}
+.fa-brands{
+  margin-right: 5px;
+  /* color:rgb(209, 209, 44); */
+}
+.dot{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:5px;
+  height:5px;
+  /* border-radius:50%; */
+  background:rgb(209, 209, 44);
+}
+
+/* footer starts  */
+.footer_container{
+background: black;
+color:white;
+padding:20px 10px;
+}
+
+.contacts{
+background-color: #000;
+color:white;
+text-transform:capitalize;
+font-weight: 400;
+font-size: 22px;
+}
+.contactuderline{
+width:30px;
+height:2px;
+margin-top: 10px;
+background: yellow;
+}
+.footer_content{
+margin-top: 10px;
+padding:10px 5px;
+}
+.phone{
+display: flex;
+gap:5px;
+font-size:18px;
+
+}
+
+.email{
+display: flex;
+gap:5px;
+font-size:18px;
+}
+.copyright{
+text-transform: capitalize;
+font-size:18px;
+}
+
+
+
+
 /* mdeia screeen for mobile responsive */
+
+
+
+
+
 @media only screen and (max-width: 600px) {
 
   .navbarcss{
@@ -426,4 +537,16 @@
     max-width:90vw;
   }
   /* End About section of home page  */
+  .mySwiper2 .swiper-slide{
+  height:100%;
+  width:130px;
+  /* background: red; */
+  /* border:solid 2px green; */
+ }
+ .mySwiper2 .swiper-slide img{
+  width:130px;
+  height:150px;
+  object-fit: cover;
+ }
+
 }
