@@ -16,14 +16,14 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
    />
-    <title>Document</title>
+    <title>katharamafilms.com</title>
 </head>
 <body>
 <!-- nav section  -->
 <nav class="navbar navbar-expand-lg " style="position:relative; z-index:100;">
     <div class="container-fluid navbarcss" style="position: fixed;margin-top: 0px; top:0px;" id="navbar">
       <a class="navbar-brand" href="#">
-        <img src="images/bandishe1.jpg" alt="" style="width:50px;height:35px;">
+        <img src="images/logo.png" alt="" style="width:55px;height:45px; margin-right: 3px;">
       </a>
      
       
@@ -125,11 +125,56 @@
 
 
  
- <!-- section 1 about me section -->
+ <!-- section 1 about me section end -->
 
+<!-- video section start -->
+<div class="main_video_container">
+  <div class="video_container">
+    <h1>Our Latest Video</h1>
+    <div class="vcontainer">
+      <div class="video_slider">
+        <div class="swiper-slide" style="height:500px;width:350px;">
+          <video autoplay muted loop style="height: 100%; width:100%;">
+            <source src="video/vid1.mp4" type="video/mp4" >
+            
+          </video>
+        </div>
+        <div class="swiper-slide" style="height:500px;width:350px;">
+          <video autoplay loop muted style="height: 100%; width:100%;">
+            <source src="video/vid6.mp4" type="video/mp4" >
+            
+          </video>
+        </div>
+        <div class="swiper-slide" style="height:500px;width:350px;">
+          <video autoplay loop muted style="height: 100%; width:100%;">
+            <source src="video/vid4.mp4" type="video/mp4" >
+            
+          </video>
+        </div>
+        <div class="swiper-slide" style="height:500px;width:350px;">
+          <video autoplay loop muted style="height: 100%; width:100%;">
+            <source src="video/vid2.mp4" type="video/mp4" >
+            
+          </video>
+        </div>
+        <div class="swiper-slide" style="height:500px;width:350px;">
+          <video autoplay loop muted style="max-height: 100%; max-width:100%;">
+            <source src="video/vid5.mp4" type="video/mp4" >
+            
+          </video>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!-- video section start -->
  <!-- section All works  -->
  <div class="div works_head">
-  <h1 class="works_head_title">Latest Work</h1>
+  <h1 class="works_head_title"> Our Latest Images</h1>
   <span class="works_head_span"></span>
   <div class="div works_head_option">
     <div class="work_option works_option1">ALL</div>
@@ -212,7 +257,6 @@
     <div class="swiper-slide">
       <div class="card text-bg-dark">
         <img src="images/DSC6090.jpg" class="card-img" alt="...">
-        <img src="images/DSC_9403.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <div class="overlay1upper">
            <div class="pipe"></div>
@@ -229,7 +273,7 @@
     </div>
     <div class="swiper-slide">
       <div class="card text-bg-dark">
-        <img src="images/DSC6337(1).jpg" class="card-img" alt="...">
+        <img src="images/DSC6056.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <div class="overlay1upper">
            <div class="pipe"></div>
@@ -285,6 +329,19 @@
   <!-- <div class="swiper-pagination"></div> -->
 </div>
 
+
+<!-- swiper breaker -->
+<div class="swiper_breaker">
+  <div class="swiper_breakcontiner">
+    <li class="socialicon"><a href=""><i class="fa-brands fa-youtube"></i>youtube</a></li>
+    <span class="dot"></span>
+    <li class="socialicon"><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+    <span class="dot"></span>
+    <li class="socialicon"><a href=""><i class="fa-brands fa-facebook"></i>facebook</a></li>
+  </div>
+</div>
+<!-- swiper breaker end -->
+
 <!-- myswiper2 -->
 <div class="swiper mySwiper2">
   <div class="swiper2content">follow me</div>
@@ -300,7 +357,6 @@
     <div class="swiper-slide"><img src="images/IMG_5126.JPG" alt=""></div>
     <div class="swiper-slide"><img src="images/IMG_5127.JPG" alt=""></div>
     <div class="swiper-slide"><img src="images/IMG_5124.JPG" alt=""></div>
-    
     <div class="swiper-slide"><img src="images/IMG_5125.JPG" alt=""></div>
     <div class="swiper-slide"><img src="images/IMG_5124.JPG" alt=""></div>
   </div>
@@ -310,7 +366,32 @@
 </div>
 
 <!-- work image slider end -->
+<!-- footer start -->
+<div class="mainfooter">
+ 
+<div class="footer_container">
+<div class="contacts">Contacts</div>
+<div class="span contactuderline"></div>
+<div class="footer_content">
+  <div class="phone">
+    <div class="contact_phone">Phone :</div>
+    <div class="contact_number">9789887978</div>
+  </div>
+  <div class="email">
+    <div class="contact_emial">Email :</div>
+    <div class="contact_emailid">katharamafilms@gmail.com</div>
+  </div>
+  <div class="copyright">
+   copyright c 2025 katharamfils All rights reserved.
+  </div>
+  
+</div>
 
+</div>
+</div>
+
+
+<!-- footer end-->
 
   <!-- Aos -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -341,15 +422,15 @@
       breakpoints: {
         // When the screen width is >= 320px (small screens)
         320: {
-            slidesPerView: 1,
+            slidesPerView:1,
             // spaceBetween: 10,
             navigation: {
-                enabled: false,
+                enabled: true,
             },
         },
         // When the screen width is >= 768px (medium screens)
-        768: {
-            slidesPerView: 2,
+        568: {
+            slidesPerView: 3,
             // spaceBetween: 20,
             navigation: {
                 enabled: true,
@@ -357,7 +438,7 @@
         },
         // When the screen width is >= 1024px (large screens)
         1024: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             // spaceBetween: 30,
             navigation: {
                 enabled: true,
@@ -367,7 +448,7 @@
     // swiper 2
     var swiper = new Swiper(".mySwiper2", {
       spaceBetween:0,
-      // slidesPerView:auto,
+      // slidesPerView:,
       centeredSlides: true,
       loop: true,
       autoplay: {
@@ -388,7 +469,7 @@
             slidesPerView: 4,
             
             navigation: {
-                enabled: true,
+                enabled: false,
             },
         },
         // When the screen width is >= 768px (medium screens)
